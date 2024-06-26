@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> Cadastro de Cardapio </h1>
+    <button id="btn-imc">IMC</button>
+
+    <div id="inserir">
+        <label for="comida">Insira a comida a cadastrar</label>
+        <input type="text" id="comida"> <br>
+        <button id="inserircomida"> Inserir</button>
+        <button id="editarcomida">Editar </button>
+        <button id="excluircomida"> Excluir </button>
+
+
+        <label for="dias">Insira o dia da semana para cadastrar a comida</label> 
+        <select id="dias">
+            <option value="Segunda">Segunda</option>
+            <option value="Terça">Terça</option>
+            <option value="Quarta">Quarta</option>
+            <option value="Quinta">Quinta</option>
+            <option value="Sexta">Sexta</option>
+            <option value="Sabado">Sabado</option>
+            <option value="Domingo">Domingo</option>
+        </select>
+    </div>
+
+
+    <table id="Tabeladias">
+        <thead>
+            <tr> 
+                <th>Segunda</th>
+                <th>Terça</th>
+                <th>Quarta</th>
+                <th>Quinta</th>
+                <th>Sexta</th>
+                <th>Sábado</th>
+                <th>Domingo</th>     
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>     
+            </tr>    
+        </tbody>
+    </table>
+
+
+
+    <h1> Calculadora IMC </h1>
+    <button id="btn-imc">Calcular</button>
+
+    <div id="inserir">
+        <label for="altura">Insira sua altura </label>
+        <input type="text" id="inputAltura"> <br>
+    
+        <label for="peso">Insira seu peso </label>
+        <input type="text" id="inputPeso"> <br>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
